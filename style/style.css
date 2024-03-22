@@ -13,9 +13,9 @@ html {
 body {
     padding: 0;
     margin: 0;
-
     color: #4d4d4d;
     font-family: "Josefin Sans", sans-serif;
+    background-color: #f1f1f1;
 }
 
 h1 {
@@ -25,7 +25,6 @@ h1 {
 /* Global setting for each image */
 
 .box {
-    background-color: rgb(82, 66, 45);
     color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +35,7 @@ h1 {
 .wrapper-border {
     border: 1px solid #000000;
     margin: 10px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 
@@ -52,39 +51,39 @@ h1 {
 }
 
 .item1 {
-    background-image: url(../assets/img/img1.jpg);
+    background-image: url(../assets/img/A.jpg);
 }
 
 .item2 {
-    background-image: url(../assets/img/img2.jpg);
+    background-image: url(../assets/img/B.jpg);
 }
 
 .item3 {
-    background-image: url(../assets/img/img3.jpg);
+    background-image: url(../assets/img/C.jpg);
 }
 
 .item4 {
-    background-image: url(../assets/img/img4.jpg);
+    background-image: url(../assets/img/D.jpg);
 }
 
 .item5 {
-    background-image: url(../assets/img/img5.jpg);
+    background-image: url(../assets/img/E.jpg);
 }
 
 .item6 {
-    background-image: url(../assets/img/img6.jpg);
+    background-image: url(../assets/img/F.jpg);
 }
 
 .item7 {
-    background-image: url(../assets/img/img7.jpg);
+    background-image: url(../assets/img/G.jpg);
 }
 
 .item8 {
-    background-image: url(../assets/img/img8.jpg);
+    background-image: url(../assets/img/H.jpg);
 }
 
 .item9 {
-    background-image: url(../assets/img/img9.jpg);
+    background-image: url(../assets/img/I.jpg);
 }
 
 
@@ -103,42 +102,42 @@ h1 {
 
 
 .itemA {
-    background-image: url(../assets/img/img1.jpg);
+    background-image: url(../assets/img/A.jpg);
     grid-row: 1 / span 2;
 }
 
 .itemB {
-    background-image: url(../assets/img/img2.jpg);
+    background-image: url(../assets/img/E.jpg);
     grid-column: 2 / span 3;
     grid-row: 1 / span 2;
 }
 
 .itemC {
-    background-image: url(../assets/img/img3.jpg);
+    background-image: url(../assets/img/J.jpg);
     grid-row: 3 / span 2;
 }
 
 .itemD {
-    background-image: url(../assets/img/img4.jpg);
+    background-image: url(../assets/img/D.jpg);
     grid-area: 3 / 2;
 }
 
 .itemE {
-    background-image: url(../assets/img/img5.jpg);
+    background-image: url(../assets/img/B.jpg);
     grid-column: 3 / span 2;
 }
 
 .itemF {
-    background-image: url(../assets/img/img6.jpg);
+    background-image: url(../assets/img/F.jpg);
     grid-area: 4 / 2;
 }
 
 .itemG {
-    background-image: url(../assets/img/img7.jpg);
+    background-image: url(../assets/img/G.jpg);
     grid-area: 4 / 3;
 }
 
 .itemH {
-    background-image: url(../assets/img/img8.jpg);
+    background-image: url(../assets/img/H.jpg);
     grid-area: 4 / 4;
 }
